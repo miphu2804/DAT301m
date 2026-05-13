@@ -1,0 +1,15 @@
+[project]
+name = "dat301m"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "gdown>=6.0.0",
+    "ipykernel>=7.2.0",
+    "matplotlib>=3.10.9",
+    "pillow>=12.2.0",
+    "pip>=26.1.1",
+    "tensorflow==2.17.1",
+    "tensorflow-metal==1.1.0",
+]
