@@ -8,3 +8,7 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Local datasets and model artifacts
+data/
+week_2/data/
