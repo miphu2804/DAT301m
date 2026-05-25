@@ -16,5 +16,6 @@ dependencies = [
     "pydot>=4.0.1",
     "tensorflow==2.17.1",
     "tensorflow-metal==1.1.0",
+    "torch>=2.12.0",
     "visualkeras>=0.2.0",
 ]
