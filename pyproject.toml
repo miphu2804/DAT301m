@@ -9,6 +9,7 @@ dependencies = [
     "gdown>=6.0.0",
     "ipykernel>=7.2.0",
     "kagglehub>=1.0.1",
+    "librosa>=0.11.0",
     "matplotlib>=3.10.9",
     "netron>=9.0.9",
     "pillow>=12.2.0",
