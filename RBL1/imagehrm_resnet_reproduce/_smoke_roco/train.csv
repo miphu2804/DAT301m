@@ -1,0 +1,4 @@
+image_path,caption
+train_red.png,frontal chest radiograph shows clear lungs and normal cardiac silhouette
+train_blue.png,axial ct image demonstrates no acute intracranial hemorrhage
+train_green.png,abdominal ultrasound image shows a small simple cyst
