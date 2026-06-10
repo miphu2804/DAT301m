@@ -1,0 +1,183 @@
+{
+  "raw_data": "/Users/miphu/Projects/DAT301m/DESCN/data/ACIC2019_epilepsy_dataset/raw/data.csv",
+  "generated_dir": "/Users/miphu/Projects/DAT301m/DESCN/data/ACIC2019_epilepsy_dataset/generated_mod4",
+  "sample_kind": "Rounding",
+  "generated_count": 200,
+  "psi0_mod4": 0.2916273836,
+  "expected_paper_psi0_mod4": 0.2916274,
+  "split_note": "The DESCN repo does not include the original CSV-to-npz split manifest. This script uses exact Mod4 generation, then packs independent contiguous 20-file blocks into each experiment dimension: files 1-100 for train and 101-200 for test by default.",
+  "files_per_experiment": 20,
+  "train_files": [
+    1,
+    100
+  ],
+  "test_files": [
+    101,
+    200
+  ],
+  "train_file_groups": [
+    [
+      1,
+      20
+    ],
+    [
+      21,
+      40
+    ],
+    [
+      41,
+      60
+    ],
+    [
+      61,
+      80
+    ],
+    [
+      81,
+      100
+    ]
+  ],
+  "test_file_groups": [
+    [
+      101,
+      120
+    ],
+    [
+      121,
+      140
+    ],
+    [
+      141,
+      160
+    ],
+    [
+      161,
+      180
+    ],
+    [
+      181,
+      200
+    ]
+  ],
+  "experiment_count": 5,
+  "train": {
+    "x_shape": [
+      40000,
+      178,
+      5
+    ],
+    "treated_mean": 20074.19921875,
+    "control_mean": 19925.80078125,
+    "positive_outcome_mean": 18238.0,
+    "treated_ratio_mean": 0.5018550157546997,
+    "outcome_rate_mean": 0.45594996213912964,
+    "mean_tau_mean": 0.29180365800857544,
+    "per_experiment": [
+      {
+        "experiment": 1,
+        "treated": 19987,
+        "control": 20013,
+        "positive_outcome": 18024,
+        "treated_ratio": 0.4996750056743622,
+        "outcome_rate": 0.4505999982357025,
+        "mean_tau": 0.2923330068588257
+      },
+      {
+        "experiment": 2,
+        "treated": 20065,
+        "control": 19935,
+        "positive_outcome": 18270,
+        "treated_ratio": 0.5016250014305115,
+        "outcome_rate": 0.4567500054836273,
+        "mean_tau": 0.2921063005924225
+      },
+      {
+        "experiment": 3,
+        "treated": 19986,
+        "control": 20014,
+        "positive_outcome": 18179,
+        "treated_ratio": 0.4996500015258789,
+        "outcome_rate": 0.4544749855995178,
+        "mean_tau": 0.291249543428421
+      },
+      {
+        "experiment": 4,
+        "treated": 20138,
+        "control": 19862,
+        "positive_outcome": 18419,
+        "treated_ratio": 0.5034499764442444,
+        "outcome_rate": 0.46047499775886536,
+        "mean_tau": 0.2916318476200104
+      },
+      {
+        "experiment": 5,
+        "treated": 20195,
+        "control": 19805,
+        "positive_outcome": 18298,
+        "treated_ratio": 0.5048750042915344,
+        "outcome_rate": 0.4574500024318695,
+        "mean_tau": 0.2917015552520752
+      }
+    ]
+  },
+  "test": {
+    "x_shape": [
+      40000,
+      178,
+      5
+    ],
+    "treated_mean": 20057.0,
+    "control_mean": 19943.0,
+    "positive_outcome_mean": 18229.19921875,
+    "treated_ratio_mean": 0.5014249682426453,
+    "outcome_rate_mean": 0.45573002099990845,
+    "mean_tau_mean": 0.29162293672561646,
+    "per_experiment": [
+      {
+        "experiment": 1,
+        "treated": 20183,
+        "control": 19817,
+        "positive_outcome": 18265,
+        "treated_ratio": 0.5045750141143799,
+        "outcome_rate": 0.4566250145435333,
+        "mean_tau": 0.2912679612636566
+      },
+      {
+        "experiment": 2,
+        "treated": 20053,
+        "control": 19947,
+        "positive_outcome": 18440,
+        "treated_ratio": 0.5013250112533569,
+        "outcome_rate": 0.460999995470047,
+        "mean_tau": 0.2921237349510193
+      },
+      {
+        "experiment": 3,
+        "treated": 19985,
+        "control": 20015,
+        "positive_outcome": 18183,
+        "treated_ratio": 0.49962499737739563,
+        "outcome_rate": 0.4545750021934509,
+        "mean_tau": 0.29120755195617676
+      },
+      {
+        "experiment": 4,
+        "treated": 20071,
+        "control": 19929,
+        "positive_outcome": 18061,
+        "treated_ratio": 0.5017750263214111,
+        "outcome_rate": 0.4515250027179718,
+        "mean_tau": 0.2927067279815674
+      },
+      {
+        "experiment": 5,
+        "treated": 19993,
+        "control": 20007,
+        "positive_outcome": 18197,
+        "treated_ratio": 0.49982500076293945,
+        "outcome_rate": 0.454925000667572,
+        "mean_tau": 0.2908075749874115
+      }
+    ]
+  }
+}
