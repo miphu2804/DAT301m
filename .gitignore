@@ -13,6 +13,7 @@ wheels/
 # Local datasets and model artifacts
 data/
 week_2/data/
+
 *.zip
 *.zip.*
 
