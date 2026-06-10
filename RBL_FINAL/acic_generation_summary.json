@@ -1,0 +1,409 @@
+{
+  "raw_data": "/Users/miphu/Projects/DAT301m/DESCN/data/ACIC2019_epilepsy_dataset/raw/data.csv",
+  "generated_dir": "/Users/miphu/Projects/DAT301m/DESCN/data/ACIC2019_epilepsy_dataset/generated_all_mods",
+  "sample_kind": "Rounding",
+  "files_per_mod": 200,
+  "n_bootstrap": 2000,
+  "experiments_per_mod": 5,
+  "files_per_experiment": 20,
+  "total_experiments": 20,
+  "psi0_by_mod": {
+    "mod1": -0.2798087852,
+    "mod2": 0.2165880974,
+    "mod3": 0.2608264255,
+    "mod4": 0.2916273836
+  },
+  "psi0_mean": 0.122308280325,
+  "expected_paper_psi0_mod4": 0.2916274,
+  "expected_paper_psi0_mod2": 0.2165881,
+  "train": {
+    "x_shape": [
+      40000,
+      178,
+      20
+    ],
+    "treated_mean": 18446.25,
+    "control_mean": 21553.75,
+    "positive_outcome_mean": 16833.69921875,
+    "treated_ratio_mean": 0.4611562192440033,
+    "outcome_rate_mean": 0.4208424687385559,
+    "mean_tau_mean": 0.12242605537176132,
+    "per_experiment": [
+      {
+        "experiment": 1,
+        "treated": 15453,
+        "control": 24547,
+        "positive_outcome": 8425,
+        "treated_ratio": 0.38632500171661377,
+        "outcome_rate": 0.21062499284744263,
+        "mean_tau": -0.28002068400382996
+      },
+      {
+        "experiment": 2,
+        "treated": 15298,
+        "control": 24702,
+        "positive_outcome": 8307,
+        "treated_ratio": 0.38245001435279846,
+        "outcome_rate": 0.2076749950647354,
+        "mean_tau": -0.2776564955711365
+      },
+      {
+        "experiment": 3,
+        "treated": 15341,
+        "control": 24659,
+        "positive_outcome": 8306,
+        "treated_ratio": 0.383525013923645,
+        "outcome_rate": 0.20765000581741333,
+        "mean_tau": -0.2788798213005066
+      },
+      {
+        "experiment": 4,
+        "treated": 15485,
+        "control": 24515,
+        "positive_outcome": 8364,
+        "treated_ratio": 0.3871249854564667,
+        "outcome_rate": 0.20909999310970306,
+        "mean_tau": -0.28095704317092896
+      },
+      {
+        "experiment": 5,
+        "treated": 15474,
+        "control": 24526,
+        "positive_outcome": 8348,
+        "treated_ratio": 0.3868499994277954,
+        "outcome_rate": 0.2087000012397766,
+        "mean_tau": -0.2797509729862213
+      },
+      {
+        "experiment": 6,
+        "treated": 23480,
+        "control": 16520,
+        "positive_outcome": 27141,
+        "treated_ratio": 0.5870000123977661,
+        "outcome_rate": 0.6785249710083008,
+        "mean_tau": 0.21728771924972534
+      },
+      {
+        "experiment": 7,
+        "treated": 23718,
+        "control": 16282,
+        "positive_outcome": 27170,
+        "treated_ratio": 0.5929499864578247,
+        "outcome_rate": 0.6792500019073486,
+        "mean_tau": 0.21742497384548187
+      },
+      {
+        "experiment": 8,
+        "treated": 23586,
+        "control": 16414,
+        "positive_outcome": 27280,
+        "treated_ratio": 0.5896499752998352,
+        "outcome_rate": 0.6819999814033508,
+        "mean_tau": 0.21655777096748352
+      },
+      {
+        "experiment": 9,
+        "treated": 23779,
+        "control": 16221,
+        "positive_outcome": 27581,
+        "treated_ratio": 0.5944749712944031,
+        "outcome_rate": 0.6895250082015991,
+        "mean_tau": 0.2147110402584076
+      },
+      {
+        "experiment": 10,
+        "treated": 23787,
+        "control": 16213,
+        "positive_outcome": 27281,
+        "treated_ratio": 0.5946750044822693,
+        "outcome_rate": 0.6820250153541565,
+        "mean_tau": 0.2163386046886444
+      },
+      {
+        "experiment": 11,
+        "treated": 14564,
+        "control": 25436,
+        "positive_outcome": 14021,
+        "treated_ratio": 0.36410000920295715,
+        "outcome_rate": 0.35052499175071716,
+        "mean_tau": 0.26087599992752075
+      },
+      {
+        "experiment": 12,
+        "treated": 14507,
+        "control": 25493,
+        "positive_outcome": 14054,
+        "treated_ratio": 0.3626750111579895,
+        "outcome_rate": 0.35135000944137573,
+        "mean_tau": 0.2608983516693115
+      },
+      {
+        "experiment": 13,
+        "treated": 14675,
+        "control": 25325,
+        "positive_outcome": 14231,
+        "treated_ratio": 0.3668749928474426,
+        "outcome_rate": 0.35577499866485596,
+        "mean_tau": 0.26113730669021606
+      },
+      {
+        "experiment": 14,
+        "treated": 14754,
+        "control": 25246,
+        "positive_outcome": 14213,
+        "treated_ratio": 0.3688499927520752,
+        "outcome_rate": 0.35532501339912415,
+        "mean_tau": 0.26030704379081726
+      },
+      {
+        "experiment": 15,
+        "treated": 14747,
+        "control": 25253,
+        "positive_outcome": 14075,
+        "treated_ratio": 0.36867499351501465,
+        "outcome_rate": 0.3518750071525574,
+        "mean_tau": 0.2606644928455353
+      },
+      {
+        "experiment": 16,
+        "treated": 20043,
+        "control": 19957,
+        "positive_outcome": 17576,
+        "treated_ratio": 0.501075029373169,
+        "outcome_rate": 0.43939998745918274,
+        "mean_tau": 0.29224085807800293
+      },
+      {
+        "experiment": 17,
+        "treated": 20031,
+        "control": 19969,
+        "positive_outcome": 17587,
+        "treated_ratio": 0.5007749795913696,
+        "outcome_rate": 0.4396750032901764,
+        "mean_tau": 0.29201996326446533
+      },
+      {
+        "experiment": 18,
+        "treated": 19992,
+        "control": 20008,
+        "positive_outcome": 17456,
+        "treated_ratio": 0.4997999966144562,
+        "outcome_rate": 0.43639999628067017,
+        "mean_tau": 0.29151979088783264
+      },
+      {
+        "experiment": 19,
+        "treated": 20125,
+        "control": 19875,
+        "positive_outcome": 17707,
+        "treated_ratio": 0.503125011920929,
+        "outcome_rate": 0.44267499446868896,
+        "mean_tau": 0.2918984889984131
+      },
+      {
+        "experiment": 20,
+        "treated": 20086,
+        "control": 19914,
+        "positive_outcome": 17551,
+        "treated_ratio": 0.5021499991416931,
+        "outcome_rate": 0.4387750029563904,
+        "mean_tau": 0.29190942645072937
+      }
+    ]
+  },
+  "test": {
+    "x_shape": [
+      40000,
+      178,
+      20
+    ],
+    "treated_mean": 18456.849609375,
+    "control_mean": 21543.150390625,
+    "positive_outcome_mean": 16829.400390625,
+    "treated_ratio_mean": 0.46142125129699707,
+    "outcome_rate_mean": 0.4207349717617035,
+    "mean_tau_mean": 0.12216939777135849,
+    "per_experiment": [
+      {
+        "experiment": 1,
+        "treated": 15347,
+        "control": 24653,
+        "positive_outcome": 8643,
+        "treated_ratio": 0.3836750090122223,
+        "outcome_rate": 0.21607500314712524,
+        "mean_tau": -0.28010275959968567
+      },
+      {
+        "experiment": 2,
+        "treated": 15527,
+        "control": 24473,
+        "positive_outcome": 8270,
+        "treated_ratio": 0.38817501068115234,
+        "outcome_rate": 0.20675000548362732,
+        "mean_tau": -0.28047847747802734
+      },
+      {
+        "experiment": 3,
+        "treated": 15400,
+        "control": 24600,
+        "positive_outcome": 8451,
+        "treated_ratio": 0.38499999046325684,
+        "outcome_rate": 0.21127499639987946,
+        "mean_tau": -0.28150421380996704
+      },
+      {
+        "experiment": 4,
+        "treated": 15501,
+        "control": 24499,
+        "positive_outcome": 8416,
+        "treated_ratio": 0.3875249922275543,
+        "outcome_rate": 0.21040000021457672,
+        "mean_tau": -0.2796351909637451
+      },
+      {
+        "experiment": 5,
+        "treated": 15429,
+        "control": 24571,
+        "positive_outcome": 8302,
+        "treated_ratio": 0.3857249915599823,
+        "outcome_rate": 0.20755000412464142,
+        "mean_tau": -0.28011035919189453
+      },
+      {
+        "experiment": 6,
+        "treated": 23775,
+        "control": 16225,
+        "positive_outcome": 27193,
+        "treated_ratio": 0.5943750143051147,
+        "outcome_rate": 0.6798250079154968,
+        "mean_tau": 0.2158416211605072
+      },
+      {
+        "experiment": 7,
+        "treated": 23638,
+        "control": 16362,
+        "positive_outcome": 26992,
+        "treated_ratio": 0.5909500122070312,
+        "outcome_rate": 0.6747999787330627,
+        "mean_tau": 0.21728193759918213
+      },
+      {
+        "experiment": 8,
+        "treated": 23880,
+        "control": 16120,
+        "positive_outcome": 27205,
+        "treated_ratio": 0.597000002861023,
+        "outcome_rate": 0.6801249980926514,
+        "mean_tau": 0.2168971747159958
+      },
+      {
+        "experiment": 9,
+        "treated": 23739,
+        "control": 16261,
+        "positive_outcome": 27228,
+        "treated_ratio": 0.5934749841690063,
+        "outcome_rate": 0.6807000041007996,
+        "mean_tau": 0.21677465736865997
+      },
+      {
+        "experiment": 10,
+        "treated": 23637,
+        "control": 16363,
+        "positive_outcome": 27301,
+        "treated_ratio": 0.5909249782562256,
+        "outcome_rate": 0.6825249791145325,
+        "mean_tau": 0.21658256649971008
+      },
+      {
+        "experiment": 11,
+        "treated": 14379,
+        "control": 25621,
+        "positive_outcome": 14077,
+        "treated_ratio": 0.3594749867916107,
+        "outcome_rate": 0.35192498564720154,
+        "mean_tau": 0.25974249839782715
+      },
+      {
+        "experiment": 12,
+        "treated": 14658,
+        "control": 25342,
+        "positive_outcome": 14040,
+        "treated_ratio": 0.3664500117301941,
+        "outcome_rate": 0.35100001096725464,
+        "mean_tau": 0.26095983386039734
+      },
+      {
+        "experiment": 13,
+        "treated": 14635,
+        "control": 25365,
+        "positive_outcome": 14175,
+        "treated_ratio": 0.3658750057220459,
+        "outcome_rate": 0.3543750047683716,
+        "mean_tau": 0.26041537523269653
+      },
+      {
+        "experiment": 14,
+        "treated": 14529,
+        "control": 25471,
+        "positive_outcome": 14125,
+        "treated_ratio": 0.3632250130176544,
+        "outcome_rate": 0.3531250059604645,
+        "mean_tau": 0.2612880766391754
+      },
+      {
+        "experiment": 15,
+        "treated": 14713,
+        "control": 25287,
+        "positive_outcome": 14147,
+        "treated_ratio": 0.3678250014781952,
+        "outcome_rate": 0.3536750078201294,
+        "mean_tau": 0.26048433780670166
+      },
+      {
+        "experiment": 16,
+        "treated": 20180,
+        "control": 19820,
+        "positive_outcome": 17501,
+        "treated_ratio": 0.5044999718666077,
+        "outcome_rate": 0.4375250041484833,
+        "mean_tau": 0.29176756739616394
+      },
+      {
+        "experiment": 17,
+        "treated": 20016,
+        "control": 19984,
+        "positive_outcome": 17721,
+        "treated_ratio": 0.5004000067710876,
+        "outcome_rate": 0.44302499294281006,
+        "mean_tau": 0.2922658920288086
+      },
+      {
+        "experiment": 18,
+        "treated": 19998,
+        "control": 20002,
+        "positive_outcome": 17571,
+        "treated_ratio": 0.49994999170303345,
+        "outcome_rate": 0.43927499651908875,
+        "mean_tau": 0.2908971905708313
+      },
+      {
+        "experiment": 19,
+        "treated": 20122,
+        "control": 19878,
+        "positive_outcome": 17611,
+        "treated_ratio": 0.5030500292778015,
+        "outcome_rate": 0.44027501344680786,
+        "mean_tau": 0.2926807105541229
+      },
+      {
+        "experiment": 20,
+        "treated": 20034,
+        "control": 19966,
+        "positive_outcome": 17619,
+        "treated_ratio": 0.5008500218391418,
+        "outcome_rate": 0.4404749870300293,
+        "mean_tau": 0.29133594036102295
+      }
+    ]
+  }
+}
